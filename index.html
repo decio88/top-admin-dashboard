@@ -4,194 +4,48 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
-    <script
-      src="https://kit.fontawesome.com/9036c5da40.js"
-      crossorigin="anonymous"
-    ></script>
-    <title>Admin Dashboard</title>
+    <title>Top Admin Dashboard</title>
   </head>
   <body>
     <div class="container">
-      <nav class="sidebar">
-        <div class="logo">
-          <img src="odin_logo.svg" alt="" />
-          <p>Dashboard</p>
+      <!-- sidebar start -->
+      <div class="side-bar">
+        <div class="nav-heading clickable">
+          <img src="odin_logo.svg" alt="" class="dash-image" />Dashboard
         </div>
-        <div class="links-group">
-          <ul>
-            <li class="link">
-              <a href=""
-                ><i class="fa-solid fa-house"></i
-                ><span class="link-text">Home</span></a
-              >
-            </li>
-            <li class="link">
-              <a href=""
-                ><i class="fa-solid fa-address-card"></i
-                ><span class="link-text">Profile</span></a
-              >
-            </li>
-            <li class="link">
-              <a href=""
-                ><i class="fa-solid fa-message"></i
-                ><span class="link-text">Messages</span></a
-              >
-            </li>
-            <li class="link">
-              <a href=""
-                ><i class="fa-solid fa-clock-rotate-left"></i
-                ><span class="link-text">History</span></a
-              >
-            </li>
-            <li class="link">
-              <a href=""
-                ><i class="fa-solid fa-list-check"></i
-                ><span class="link-text">Tasks</span></a
-              >
-            </li>
-            <li class="link">
-              <a href=""
-                ><i class="fa-solid fa-people-group"></i
-                ><span class="link-text">Communities</span></a
-              >
+        <div class="nav-bar">
+          <ul class="nav-list nav-styles">
+            <li><span class="material-icons"> home </span>Home</li>
+            <li><span class="material-icons"> account_box </span>Profile</li>
+            <li><span class="material-icons"> email </span>Messages</li>
+            <li><span class="material-icons"> history </span>History</li>
+            <li><span class="material-icons"> task_alt </span>Tasks</li>
+            <li>
+              <span class="material-icons"> diversity_3 </span>Communities
             </li>
           </ul>
         </div>
-        <div class="links-group">
-          <ul>
-            <li class="link">
-              <a href=""
-                ><i class="fa-solid fa-gear"></i
-                ><span class="link-text">Settings</span></a
-              >
-            </li>
-            <li class="link">
-              <a href=""
-                ><i class="fa-solid fa-circle-info"></i
-                ><span class="link-text">Support</span></a
-              >
-            </li>
-            <li class="link">
-              <a href=""
-                ><i class="fa-solid fa-shield-heart"></i
-                ><span class="link-text">Privacy</span></a
-              >
-            </li>
+        <div class="setting-bar">
+          <ul class="setting-list nav-styles">
+            <li><span class="material-icons"> settings </span>Settings</li>
+            <li><span class="material-icons"> help </span>Support</li>
+            <li><span class="material-icons"> verified_user </span>Privacy</li>
           </ul>
         </div>
-      </nav>
-      <header>
-        <div class="header-row">
-          <i class="fa-solid fa-magnifying-glass header-icon"></i>
-          <input type="text" name="" id="" />
-          <div class="header-top-right">
-            <i class="fa-solid fa-bell header-icon"></i>
-            <img src="odin_logo.svg" alt="" class="profile-img-small" />
-            <p class="user-name">Morgan Oakley</p>
-          </div>
-        </div>
-        <div class="header-row">
-          <img src="odin_logo.svg" alt="" class="profile-image-large" />
-          <div class="salutation">
-            <p>Hi there,</p>
-            <p class="user">Morgan Oakley (@morgan)</p>
-          </div>
-          <div class="header-buttons">
-            <button id="new">New</button>
-            <button id="upload">Upload</button>
-            <button id="share">Share</button>
-          </div>
-        </div>
-      </header>
-      <main class="content">
-        <div class="projects">
-          <p>Your Projects</p>
-          <div class="cards-wrapper">
-            <div class="card">
-              <h2>Super cool project</h2>
-              <p>lorem ipsum p;aslkflkjg:W ozsijdpf;oi</p>
-              <div class="card-icons">
-                <i class="fa-regular fa-star"></i>
-                <i class="fa-solid fa-eye"></i>
-                <i class="fa-solid fa-share-nodes"></i>
-              </div>
-            </div>
-            <div class="card">
-              <h2>Super cool project</h2>
-              <p>lorem ipsum p;aslkflkjg:W ozsijdpf;oi</p>
-              <div class="card-icons">
-                <i class="fa-regular fa-star"></i>
-                <i class="fa-solid fa-eye"></i>
-                <i class="fa-solid fa-share-nodes"></i>
-              </div>
-            </div>
-            <div class="card">
-              <h2>Super cool project</h2>
-              <p>lorem ipsum p;aslkflkjg:W ozsijdpf;oi</p>
-              <div class="card-icons">
-                <i class="fa-regular fa-star"></i>
-                <i class="fa-solid fa-eye"></i>
-                <i class="fa-solid fa-share-nodes"></i>
-              </div>
-            </div>
-            <div class="card">
-              <h2>Super cool project</h2>
-              <p>lorem ipsum p;aslkflkjg:W ozsijdpf;oi</p>
-              <div class="card-icons">
-                <i class="fa-regular fa-star"></i>
-                <i class="fa-solid fa-eye"></i>
-                <i class="fa-solid fa-share-nodes"></i>
-              </div>
-            </div>
-            <div class="card">
-              <h2>Super cool project</h2>
-              <p>lorem ipsum p;aslkflkjg:W ozsijdpf;oi</p>
-              <div class="card-icons">
-                <i class="fa-regular fa-star"></i>
-                <i class="fa-solid fa-eye"></i>
-                <i class="fa-solid fa-share-nodes"></i>
-              </div>
-            </div>
-            <div class="card">
-              <h2>Super cool project</h2>
-              <p>lorem ipsum p;aslkflkjg:W ozsijdpf;oi</p>
-              <div class="card-icons">
-                <i class="fa-regular fa-star"></i>
-                <i class="fa-solid fa-eye"></i>
-                <i class="fa-solid fa-share-nodes"></i>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="right-content">
-          <div class="announcements">
-            <p>Announcements</p>
-            <div class="announcements-card">
-              <h3>Site Maintenance</h3>
-              <p>
-                ;po'ij;oij;aoiwsjf;oijoi jweoijoijoiujhoiufhjouhwoiujhqw
-                oeijfoikjepoijg
-              </p>
-              <hr />
-              <h3>Site Maintenance</h3>
-              <p>
-                ;po'ij;oij;aoiwsjf;oijoi jweoijoijoiujhoiufhjouhwoiujhqw
-                oeijfoikjepoijg
-              </p>
-              <hr />
-              <h3>Site Maintenance</h3>
-              <p>
-                ;po'ij;oij;aoiwsjf;oijoi jweoijoijoiujhoiufhjouhwoiujhqw
-                oeijfoikjepoijg
-              </p>
-            </div>
-          </div>
-          <div class="trending">
-            <p>Trending</p>
-          </div>
-        </div>
-      </main>
+      </div>
+      <!-- sidebar end -->
+      <!-- header start -->
     </div>
   </body>
 </html>
